@@ -1,0 +1,6 @@
+.product-card:hover{
+    transform: translateX(20px);
+}
+.product-card{
+   background-color: #f8f8f8;
+}
