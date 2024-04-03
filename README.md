@@ -30,10 +30,7 @@ Ecommerce platform built with Laravel 10. This project aims to provide a robust 
 3. **Set up environment variables:**
    - Duplicate the `.env.example` file and rename it to `.env`.
    - Configure your environment variables such as database connection details.
-
-      ```
     For database email me.
-   ```
 4. **Serve the application:**
    ```
    php artisan serve
