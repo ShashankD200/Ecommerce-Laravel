@@ -70,7 +70,14 @@
         </div>
         <div class="transaction">
         <p class="text-secondary mt-3 ms-2">Transaction History <i class="fa-solid fa-up-long"></i></p>
-
+       <div class="transaction_container mt-3">
+       @foreach($orders as $order)
+        <div class="transaction alert alert-secondary">
+          <i class="fa-solid fa-add text-success"></i>  <span class="text-success">{{$order->total}}</span> <hr>
+          <p>{{$order->product->name}}</p>
+        </div>
+        @endforeach
+       </div>
         </div>
 
     </div>

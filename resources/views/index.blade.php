@@ -180,7 +180,7 @@
         <div class="footer">
             <div class="footer-sec-1">
                 <h2>Ecommerce</h2>
-                <p>Evolve Design <br> @2024 copyright license</p>
+                <p>Designed by  <br> @Shashank Dewangan</p>
             </div>
             <div class="footer-sec-2">
                 <h2>Products</h2>

@@ -40,7 +40,7 @@ a{
 .buy_now{
     border: none;
     padding: 20px 0px;
-    background-color: #2D9596;
+
     color: white;
     font-weight: bold;
 }
@@ -59,18 +59,18 @@ a{
 .add_to_cart{
     border: none;
     padding: 20px 0px;
-    background-color: #265073;
+
     color: white;
     font-weight: bold;
 }
 .img_preview{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    gap: 5px;
     max-height: 100%;
     
 }
 .img_preview img{
-height: 80px;
+height: 120px;
 border: 1px solid rgba(181, 181, 181, 0.587);
 padding: 10px;
 }
@@ -662,6 +662,24 @@ font-size: 20px;
 font-weight: 500;
 
 }
-#loginform{
-    margin-top: 20px;
+#registerForm input{
+padding-top: 15px;
+padding-bottom: 15px;
+}
+#registerForm label{
+    color: #8a8a8a;
+    font-size: 20px;
+    font-weight: 500;
+}
+#registerForm button{
+padding-top: 15px;
+padding-bottom: 15px;
+font-size: 20px;
+font-weight: 500;
+
+}
+.transaction_container{
+    overflow: scroll;
+    height: 45vh;
+
 }
